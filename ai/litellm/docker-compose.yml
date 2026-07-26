@@ -1,0 +1,53 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: litellm-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: litellm
+      POSTGRES_PASSWORD: litellm_password
+      POSTGRES_DB: litellm
+    ports:
+      - "5432:5432"
+    command:
+      - postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  litellm:
+    image: ghcr.io/berriai/litellm:main-latest
+    container_name: litellm
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    ports:
+      - "4000:4000"
+
+    environment:
+      DATABASE_URL: postgresql://litellm:litellm_password@postgres:5432/litellm
+
+      # LiteLLM 日志级别
+      LITELLM_LOG: DEBUG
+
+      # 不截断日志
+      LITELLM_DROP_PARAMS: "False"
+
+      # 完整 debug
+      JSON_LOGS: "True"
+
+      # 可选
+      STORE_MODEL_IN_DB: "True"
+
+      OPENAI_API_KEY: sk-master
+
+    volumes:
+      - ./config.yaml:/app/config.yaml
+
+    command:
+      - "--config=/app/config.yaml"
+      - "--detailed_debug"
+
+volumes:
+  postgres_data:

@@ -1,0 +1,1 @@
+docker run --name Ubuntu -it ubuntu /bin/bash

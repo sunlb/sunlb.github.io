@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "metadata": {
+        "type": "comicSeries",
+        "publisher": "UnkownPublisher",
+        "imprint": "",
+        "name": "UndefineName",
+        "comicid": "1",
+        "year": 2024,
+        "description_text": "",
+        "description_formatted": "Name",
+        "volume": 1,
+        "booktype": "TPB",
+        "age_rating": "All",
+        "comic_image": "",
+        "total_issues": 999,
+        "publication_run": "",
+        "status": 0
+    }
+}

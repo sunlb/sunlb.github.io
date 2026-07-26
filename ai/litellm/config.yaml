@@ -1,0 +1,17 @@
+model_list:
+  - model_name: test1
+    litellm_params:
+      model: openai/deepseek-ai/DeepSeek-V4-Flash
+      api_base: https://api.siliconflow.cn/v1
+      api_key: os.environ/SILICONFLOW_API_KEY
+      custom_llm_provider: openai
+      drop_params: true
+      modify_params: true
+      request_timeout: 600
+      stream_timeout: 600
+      max_retries: 3
+
+database_url: "postgresql://postgres:openstreetmap@localhost:5432/litellm"
+
+general_settings:
+  master_key: sk-litellm

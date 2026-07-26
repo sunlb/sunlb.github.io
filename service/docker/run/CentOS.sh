@@ -1,0 +1,1 @@
+docker run --name CentOS -it centos:7 /bin/bash

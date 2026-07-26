@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+    </url>
+    <url>
+        <loc>Noneai/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/"/>
+    </url>
+    <url>
+        <loc>Noneai/PROMPT/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/PROMPT/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/PROMPT/"/>
+    </url>
+    <url>
+        <loc>Noneai/PROVIDER/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/PROVIDER/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/PROVIDER/"/>
+    </url>
+    <url>
+        <loc>Noneai/skills/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/skills/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/skills/"/>
+    </url>
+    <url>
+        <loc>Noneai/aichat/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/"/>
+    </url>
+    <url>
+        <loc>Noneai/aichat/GITHUB_README/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/GITHUB_README/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/GITHUB_README/"/>
+    </url>
+    <url>
+        <loc>Noneai/aichat/conf/roles/cosplay/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/conf/roles/cosplay/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/conf/roles/cosplay/"/>
+    </url>
+    <url>
+        <loc>Noneai/aichat/conf/roles/emoji/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/conf/roles/emoji/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/conf/roles/emoji/"/>
+    </url>
+    <url>
+        <loc>Noneai/aichat/conf/roles/news/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/conf/roles/news/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/conf/roles/news/"/>
+    </url>
+    <url>
+        <loc>Noneai/aichat/conf/roles/translate/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/conf/roles/translate/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/conf/roles/translate/"/>
+    </url>
+    <url>
+        <loc>Noneai/claudecode/claudecode/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/claudecode/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/claudecode/"/>
+    </url>
+    <url>
+        <loc>Noneai/claudecode/docs/claude-code-prompt-design/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/claude-code-prompt-design/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/claude-code-prompt-design/"/>
+    </url>
+    <url>
+        <loc>Noneai/claudecode/docs/prompt/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/prompt/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/prompt/"/>
+    </url>
+    <url>
+        <loc>Noneai/claudecode/docs/prompt_system-zh/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/prompt_system-zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/prompt_system-zh/"/>
+    </url>
+    <url>
+        <loc>Noneai/claudecode/docs/prompt_system/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/prompt_system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/prompt_system/"/>
+    </url>
+    <url>
+        <loc>Noneai/claudecode/docs/prompt_tools/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/prompt_tools/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/prompt_tools/"/>
+    </url>
+    <url>
+        <loc>Noneai/claudecode/docs/prompt_user/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/prompt_user/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/prompt_user/"/>
+    </url>
+    <url>
+        <loc>Noneai/claudecode/docs/skill_create/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/skill_create/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/skill_create/"/>
+    </url>
+    <url>
+        <loc>Noneai/docs/api_of_openai_vs_anthropic/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/docs/api_of_openai_vs_anthropic/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/docs/api_of_openai_vs_anthropic/"/>
+    </url>
+    <url>
+        <loc>Noneai/litellm/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/litellm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/litellm/"/>
+    </url>
+    <url>
+        <loc>Noneai/opencode/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/opencode/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/opencode/"/>
+    </url>
+    <url>
+        <loc>Noneai/opencode/docs/prompt_system/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/opencode/docs/prompt_system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/opencode/docs/prompt_system/"/>
+    </url>
+    <url>
+        <loc>Noneai/vllm/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/vllm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/vllm/"/>
+    </url>
+    <url>
+        <loc>Noneai/whisper/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/whisper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/whisper/"/>
+    </url>
+    <url>
+        <loc>Noneai/whisper/faster-whisper/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/whisper/faster-whisper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/whisper/faster-whisper/"/>
+    </url>
+    <url>
+        <loc>Noneai/whisper/openai-whisper/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/whisper/openai-whisper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/whisper/openai-whisper/"/>
+    </url>
+    <url>
+        <loc>Noneai/whisper/whisper.cpp/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/whisper/whisper.cpp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/whisper/whisper.cpp/"/>
+    </url>
+    <url>
+        <loc>Nonealgorithm/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonealgorithm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/algorithm/"/>
+    </url>
+    <url>
+        <loc>Nonealgorithm/graph/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonealgorithm/graph/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/algorithm/graph/"/>
+    </url>
+    <url>
+        <loc>Nonealgorithm/route_plan/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonealgorithm/route_plan/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/algorithm/route_plan/"/>
+    </url>
+    <url>
+        <loc>Nonealgorithm/route_plan/ch_cch/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonealgorithm/route_plan/ch_cch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/algorithm/route_plan/ch_cch/"/>
+    </url>
+    <url>
+        <loc>Nonealgorithm/spline/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonealgorithm/spline/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/algorithm/spline/"/>
+    </url>
+    <url>
+        <loc>Noneapp/alist/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/alist/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/alist/"/>
+    </url>
+    <url>
+        <loc>Noneapp/chrome/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/chrome/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/chrome/"/>
+    </url>
+    <url>
+        <loc>Noneapp/jellyfin/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/jellyfin/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/jellyfin/"/>
+    </url>
+    <url>
+        <loc>Noneapp/kodi/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/kodi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/kodi/"/>
+    </url>
+    <url>
+        <loc>Noneapp/komga/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/komga/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/komga/"/>
+    </url>
+    <url>
+        <loc>Noneapp/plex/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/plex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/plex/"/>
+    </url>
+    <url>
+        <loc>Noneapp/sillytavern/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/sillytavern/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/sillytavern/"/>
+    </url>
+    <url>
+        <loc>Noneapp/sillytavern/CharacterCard/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/sillytavern/CharacterCard/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/sillytavern/CharacterCard/"/>
+    </url>
+    <url>
+        <loc>Noneapp/sillytavern/card/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/sillytavern/card/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/sillytavern/card/"/>
+    </url>
+    <url>
+        <loc>Noneapp/sillytavern/spec/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/sillytavern/spec/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/sillytavern/spec/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/hadoop/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hadoop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hadoop/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/hadoop/0-install/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hadoop/0-install/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hadoop/0-install/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/hadoop/1-HDFS/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hadoop/1-HDFS/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hadoop/1-HDFS/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/hadoop/2-MapReduce/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hadoop/2-MapReduce/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hadoop/2-MapReduce/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/hadoop/3-YARN/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hadoop/3-YARN/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hadoop/3-YARN/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/hbase/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hbase/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hbase/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/hive/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hive/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hive/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/hive/HIVE%E6%95%B0%E6%8D%AE%E5%88%86%E5%B1%82/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hive/HIVE%E6%95%B0%E6%8D%AE%E5%88%86%E5%B1%82/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hive/HIVE%E6%95%B0%E6%8D%AE%E5%88%86%E5%B1%82/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/hive/HSQL_CONCAT_WS/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hive/HSQL_CONCAT_WS/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hive/HSQL_CONCAT_WS/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/kafka/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/kafka/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/kafka/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/spark/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/spark/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/spark/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/spark/spark-sql/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/spark/spark-sql/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/spark/spark-sql/"/>
+    </url>
+    <url>
+        <loc>Nonebig_data/zookeeper/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/zookeeper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/zookeeper/"/>
+    </url>
+    <url>
+        <loc>Nonedb/common_sql/CTE/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/common_sql/CTE/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/common_sql/CTE/"/>
+    </url>
+    <url>
+        <loc>Nonedb/duckdb/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/duckdb/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/duckdb/"/>
+    </url>
+    <url>
+        <loc>Nonedb/duckdb/with_json/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/duckdb/with_json/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/duckdb/with_json/"/>
+    </url>
+    <url>
+        <loc>Nonedb/postgresql/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/postgresql/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/postgresql/"/>
+    </url>
+    <url>
+        <loc>Nonedb/redis/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/redis/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/redis/"/>
+    </url>
+    <url>
+        <loc>Nonedb/sqlite/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/sqlite/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/sqlite/"/>
+    </url>
+    <url>
+        <loc>Noneos/centos/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/centos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/centos/"/>
+    </url>
+    <url>
+        <loc>Noneos/mac/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/mac/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/mac/"/>
+    </url>
+    <url>
+        <loc>Noneos/mac/homebrew/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/mac/homebrew/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/mac/homebrew/"/>
+    </url>
+    <url>
+        <loc>Noneos/mac/nvm/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/mac/nvm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/mac/nvm/"/>
+    </url>
+    <url>
+        <loc>Noneos/mac/version_history/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/mac/version_history/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/mac/version_history/"/>
+    </url>
+    <url>
+        <loc>Noneos/mixly/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/mixly/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/mixly/"/>
+    </url>
+    <url>
+        <loc>Noneos/raspberrypi/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/raspberrypi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/raspberrypi/"/>
+    </url>
+    <url>
+        <loc>Noneos/raspberrypi/pi-4b/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/raspberrypi/pi-4b/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/raspberrypi/pi-4b/"/>
+    </url>
+    <url>
+        <loc>Noneos/ubuntu/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/ubuntu/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/ubuntu/"/>
+    </url>
+    <url>
+        <loc>Noneos/windows/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/windows/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/windows/"/>
+    </url>
+    <url>
+        <loc>Noneservice/bash/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/bash/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/bash/"/>
+    </url>
+    <url>
+        <loc>Noneservice/docker/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/docker/"/>
+    </url>
+    <url>
+        <loc>Noneservice/elasticsearch/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/elasticsearch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/elasticsearch/"/>
+    </url>
+    <url>
+        <loc>Noneservice/git/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/git/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/git/"/>
+    </url>
+    <url>
+        <loc>Noneservice/jenkins/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/jenkins/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/jenkins/"/>
+    </url>
+    <url>
+        <loc>Noneservice/markdown/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/markdown/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/markdown/"/>
+    </url>
+    <url>
+        <loc>Noneservice/markdown/formula/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/markdown/formula/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/markdown/formula/"/>
+    </url>
+    <url>
+        <loc>Noneservice/markdown/mermaid/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/markdown/mermaid/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/markdown/mermaid/"/>
+    </url>
+    <url>
+        <loc>Noneservice/markdown/examples/01-basic/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/markdown/examples/01-basic/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/markdown/examples/01-basic/"/>
+    </url>
+    <url>
+        <loc>Noneservice/markdown/examples/10-mermaid/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/markdown/examples/10-mermaid/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/markdown/examples/10-mermaid/"/>
+    </url>
+    <url>
+        <loc>Noneservice/nginx/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/nginx/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/nginx/"/>
+    </url>
+    <url>
+        <loc>Noneservice/nginx/tengine/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/nginx/tengine/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/nginx/tengine/"/>
+    </url>
+    <url>
+        <loc>Noneservice/podman/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/podman/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/podman/"/>
+    </url>
+    <url>
+        <loc>Noneservice/supervisor/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/supervisor/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/supervisor/"/>
+    </url>
+    <url>
+        <loc>Noneservice/v2ray/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/v2ray/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/v2ray/"/>
+    </url>
+    <url>
+        <loc>Noneservice/v2ray/pac/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/v2ray/pac/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/v2ray/pac/"/>
+    </url>
+    <url>
+        <loc>Noneservice/vim/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/vim/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/vim/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/data_process/awk/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/awk/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/awk/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/data_process/comm/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/comm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/comm/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/data_process/ffmpeg/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/ffmpeg/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/ffmpeg/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/data_process/hexdump/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/hexdump/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/hexdump/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/data_process/jq/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/jq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/jq/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/data_process/ogr2ogr/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/ogr2ogr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/ogr2ogr/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/data_process/pandoc/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/pandoc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/pandoc/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/data_process/sed/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/sed/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/sed/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/data_process/tts/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/tts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/tts/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/data_process/vim/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/vim/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/vim/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/file_directory/find/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/file_directory/find/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/file_directory/find/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/file_directory/rename/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/file_directory/rename/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/file_directory/rename/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/file_directory/test/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/file_directory/test/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/file_directory/test/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/file_directory/unrar/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/file_directory/unrar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/file_directory/unrar/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/file_directory/xargs/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/file_directory/xargs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/file_directory/xargs/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/funny/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/funny/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/funny/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/network/lsof/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/network/lsof/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/network/lsof/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/network/nmap/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/network/nmap/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/network/nmap/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/network/tcpdump/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/network/tcpdump/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/network/tcpdump/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/system/date/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/system/date/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/system/date/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/system/screen/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/system/screen/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/system/screen/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/system/tmux/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/system/tmux/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/system/tmux/"/>
+    </url>
+    <url>
+        <loc>Noneshell_command/system/top/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/system/top/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/system/top/"/>
+    </url>
+    <url>
+        <loc>Nonezzz/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezzz/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/zzz/"/>
+    </url>
+    <url>
+        <loc>Nonezzz/terminology/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezzz/terminology/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/zzz/terminology/"/>
+    </url>
+    <url>
+        <loc>Noneen/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/PROMPT/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/PROMPT/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/PROMPT/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/PROVIDER/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/PROVIDER/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/PROVIDER/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/skills/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/skills/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/skills/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/aichat/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/aichat/GITHUB_README/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/GITHUB_README/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/GITHUB_README/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/aichat/conf/roles/cosplay/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/conf/roles/cosplay/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/conf/roles/cosplay/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/aichat/conf/roles/emoji/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/conf/roles/emoji/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/conf/roles/emoji/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/aichat/conf/roles/news/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/conf/roles/news/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/conf/roles/news/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/aichat/conf/roles/translate/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/aichat/conf/roles/translate/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/aichat/conf/roles/translate/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/claudecode/claudecode/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/claudecode/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/claudecode/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/claudecode/docs/claude-code-prompt-design/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/claude-code-prompt-design/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/claude-code-prompt-design/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/claudecode/docs/prompt/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/prompt/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/prompt/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/claudecode/docs/prompt_system-zh/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/prompt_system-zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/prompt_system-zh/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/claudecode/docs/prompt_system/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/prompt_system/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/prompt_system/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/claudecode/docs/prompt_tools/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/prompt_tools/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/prompt_tools/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/claudecode/docs/prompt_user/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/prompt_user/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/prompt_user/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/claudecode/docs/skill_create/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/claudecode/docs/skill_create/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/claudecode/docs/skill_create/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/docs/api_of_openai_vs_anthropic/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/docs/api_of_openai_vs_anthropic/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/docs/api_of_openai_vs_anthropic/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/litellm/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/litellm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/litellm/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/opencode/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/opencode/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/opencode/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/opencode/docs/prompt_system/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/opencode/docs/prompt_system/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/opencode/docs/prompt_system/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/vllm/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/vllm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/vllm/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/whisper/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/whisper/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/whisper/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/whisper/faster-whisper/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/whisper/faster-whisper/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/whisper/faster-whisper/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/whisper/openai-whisper/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/whisper/openai-whisper/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/whisper/openai-whisper/"/>
+    </url>
+    <url>
+        <loc>Noneen/ai/whisper/whisper.cpp/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ai/whisper/whisper.cpp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneai/whisper/whisper.cpp/"/>
+    </url>
+    <url>
+        <loc>Noneen/algorithm/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/algorithm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonealgorithm/"/>
+    </url>
+    <url>
+        <loc>Noneen/algorithm/graph/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/algorithm/graph/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonealgorithm/graph/"/>
+    </url>
+    <url>
+        <loc>Noneen/algorithm/route_plan/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/algorithm/route_plan/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonealgorithm/route_plan/"/>
+    </url>
+    <url>
+        <loc>Noneen/algorithm/route_plan/ch_cch/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/algorithm/route_plan/ch_cch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonealgorithm/route_plan/ch_cch/"/>
+    </url>
+    <url>
+        <loc>Noneen/algorithm/spline/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/algorithm/spline/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonealgorithm/spline/"/>
+    </url>
+    <url>
+        <loc>Noneen/app/alist/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/alist/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/alist/"/>
+    </url>
+    <url>
+        <loc>Noneen/app/chrome/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/chrome/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/chrome/"/>
+    </url>
+    <url>
+        <loc>Noneen/app/jellyfin/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/jellyfin/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/jellyfin/"/>
+    </url>
+    <url>
+        <loc>Noneen/app/kodi/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/kodi/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/kodi/"/>
+    </url>
+    <url>
+        <loc>Noneen/app/komga/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/komga/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/komga/"/>
+    </url>
+    <url>
+        <loc>Noneen/app/plex/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/plex/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/plex/"/>
+    </url>
+    <url>
+        <loc>Noneen/app/sillytavern/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/sillytavern/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/sillytavern/"/>
+    </url>
+    <url>
+        <loc>Noneen/app/sillytavern/CharacterCard/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/sillytavern/CharacterCard/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/sillytavern/CharacterCard/"/>
+    </url>
+    <url>
+        <loc>Noneen/app/sillytavern/card/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/sillytavern/card/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/sillytavern/card/"/>
+    </url>
+    <url>
+        <loc>Noneen/app/sillytavern/spec/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/app/sillytavern/spec/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneapp/sillytavern/spec/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/hadoop/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hadoop/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hadoop/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/hadoop/0-install/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hadoop/0-install/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hadoop/0-install/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/hadoop/1-HDFS/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hadoop/1-HDFS/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hadoop/1-HDFS/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/hadoop/2-MapReduce/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hadoop/2-MapReduce/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hadoop/2-MapReduce/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/hadoop/3-YARN/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hadoop/3-YARN/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hadoop/3-YARN/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/hbase/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hbase/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hbase/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/hive/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hive/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hive/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/hive/HIVE%E6%95%B0%E6%8D%AE%E5%88%86%E5%B1%82/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hive/HIVE%E6%95%B0%E6%8D%AE%E5%88%86%E5%B1%82/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hive/HIVE%E6%95%B0%E6%8D%AE%E5%88%86%E5%B1%82/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/hive/HSQL_CONCAT_WS/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/hive/HSQL_CONCAT_WS/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/hive/HSQL_CONCAT_WS/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/kafka/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/kafka/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/kafka/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/spark/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/spark/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/spark/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/spark/spark-sql/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/spark/spark-sql/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/spark/spark-sql/"/>
+    </url>
+    <url>
+        <loc>Noneen/big_data/zookeeper/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/big_data/zookeeper/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonebig_data/zookeeper/"/>
+    </url>
+    <url>
+        <loc>Noneen/db/common_sql/CTE/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/common_sql/CTE/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/common_sql/CTE/"/>
+    </url>
+    <url>
+        <loc>Noneen/db/duckdb/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/duckdb/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/duckdb/"/>
+    </url>
+    <url>
+        <loc>Noneen/db/duckdb/with_json/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/duckdb/with_json/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/duckdb/with_json/"/>
+    </url>
+    <url>
+        <loc>Noneen/db/postgresql/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/postgresql/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/postgresql/"/>
+    </url>
+    <url>
+        <loc>Noneen/db/redis/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/redis/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/redis/"/>
+    </url>
+    <url>
+        <loc>Noneen/db/sqlite/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/db/sqlite/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedb/sqlite/"/>
+    </url>
+    <url>
+        <loc>Noneen/os/centos/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/centos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/centos/"/>
+    </url>
+    <url>
+        <loc>Noneen/os/mac/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/mac/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/mac/"/>
+    </url>
+    <url>
+        <loc>Noneen/os/mac/homebrew/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/mac/homebrew/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/mac/homebrew/"/>
+    </url>
+    <url>
+        <loc>Noneen/os/mac/nvm/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/mac/nvm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/mac/nvm/"/>
+    </url>
+    <url>
+        <loc>Noneen/os/mac/version_history/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/mac/version_history/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/mac/version_history/"/>
+    </url>
+    <url>
+        <loc>Noneen/os/mixly/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/mixly/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/mixly/"/>
+    </url>
+    <url>
+        <loc>Noneen/os/raspberrypi/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/raspberrypi/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/raspberrypi/"/>
+    </url>
+    <url>
+        <loc>Noneen/os/raspberrypi/pi-4b/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/raspberrypi/pi-4b/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/raspberrypi/pi-4b/"/>
+    </url>
+    <url>
+        <loc>Noneen/os/ubuntu/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/ubuntu/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/ubuntu/"/>
+    </url>
+    <url>
+        <loc>Noneen/os/windows/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/os/windows/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneos/windows/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/bash/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/bash/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/bash/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/docker/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/docker/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/docker/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/elasticsearch/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/elasticsearch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/elasticsearch/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/git/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/git/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/git/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/jenkins/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/jenkins/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/jenkins/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/markdown/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/markdown/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/markdown/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/markdown/formula/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/markdown/formula/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/markdown/formula/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/markdown/mermaid/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/markdown/mermaid/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/markdown/mermaid/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/markdown/examples/01-basic/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/markdown/examples/01-basic/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/markdown/examples/01-basic/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/markdown/examples/10-mermaid/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/markdown/examples/10-mermaid/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/markdown/examples/10-mermaid/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/nginx/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/nginx/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/nginx/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/nginx/tengine/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/nginx/tengine/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/nginx/tengine/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/podman/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/podman/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/podman/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/supervisor/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/supervisor/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/supervisor/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/v2ray/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/v2ray/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/v2ray/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/v2ray/pac/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/v2ray/pac/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/v2ray/pac/"/>
+    </url>
+    <url>
+        <loc>Noneen/service/vim/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/service/vim/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneservice/vim/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/data_process/awk/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/awk/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/awk/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/data_process/comm/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/comm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/comm/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/data_process/ffmpeg/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/ffmpeg/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/ffmpeg/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/data_process/hexdump/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/hexdump/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/hexdump/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/data_process/jq/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/jq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/jq/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/data_process/ogr2ogr/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/ogr2ogr/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/ogr2ogr/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/data_process/pandoc/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/pandoc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/pandoc/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/data_process/sed/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/sed/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/sed/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/data_process/tts/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/tts/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/tts/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/data_process/vim/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/data_process/vim/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/data_process/vim/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/file_directory/find/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/file_directory/find/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/file_directory/find/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/file_directory/rename/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/file_directory/rename/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/file_directory/rename/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/file_directory/test/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/file_directory/test/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/file_directory/test/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/file_directory/unrar/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/file_directory/unrar/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/file_directory/unrar/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/file_directory/xargs/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/file_directory/xargs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/file_directory/xargs/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/funny/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/funny/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/funny/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/network/lsof/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/network/lsof/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/network/lsof/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/network/nmap/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/network/nmap/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/network/nmap/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/network/tcpdump/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/network/tcpdump/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/network/tcpdump/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/system/date/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/system/date/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/system/date/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/system/screen/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/system/screen/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/system/screen/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/system/tmux/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/system/tmux/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/system/tmux/"/>
+    </url>
+    <url>
+        <loc>Noneen/shell_command/system/top/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/shell_command/system/top/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneshell_command/system/top/"/>
+    </url>
+    <url>
+        <loc>Noneen/zzz/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/zzz/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezzz/"/>
+    </url>
+    <url>
+        <loc>Noneen/zzz/terminology/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/zzz/terminology/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezzz/terminology/"/>
+    </url>
+</urlset>

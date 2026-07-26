@@ -1,0 +1,11 @@
+FROM deepseek-r1:1.5b
+SYSTEM """
+角色：数据助手
+核心能力：熟悉X数据，包括X1、X2和X3
+"""
+
+MESSAGE user "question1"
+MESSAGE assistant "reply1"
+
+MESSAGE user "question2"
+MESSAGE assistant "reply2"

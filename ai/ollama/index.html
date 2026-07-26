@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本地Ollama聊天助手</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        #chat-container {
+            width: 100%;
+            max-width: 800px;
+            height: 90vh;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        #chat-header {
+            background: #2563eb;
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        #chat-window {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .message {
+            margin-bottom: 15px;
+            max-width: 80%;
+            clear: both;
+        }
+        .user-message {
+            background: #2563eb;
+            color: white;
+            border-radius: 18px 18px 4px 18px;
+            padding: 12px 18px;
+            float: right;
+        }
+        .ai-message {
+            background: white;
+            color: #1f2937;
+            border-radius: 18px 18px 18px 4px;
+            padding: 12px 18px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            float: left;
+            border: 1px solid #e5e7eb;
+        }
+        #input-container {
+            display: flex;
+            padding: 15px;
+            border-top: 1px solid #e5e7eb;
+            background: white;
+        }
+        #user-input {
+            flex: 1;
+            padding: 12px 15px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+        #user-input:focus {
+            outline: none;
+            border-color: #2563eb;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        #send-button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        #send-button:hover {
+            background: #1d4ed8;
+        }
+        #send-button:disabled {
+            background: #93c5fd;
+            cursor: not-allowed;
+        }
+        .typing-indicator {
+            display: inline-block;
+            background: white;
+            color: #6b7280;
+            padding: 8px 15px;
+            border-radius: 18px;
+            font-style: italic;
+            border: 1px solid #e5e7eb;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-header">本地Ollama聊天助手</div>
+        
+        <div id="chat-window" style="white-space: pre-wrap;">
+            <div class="message ai-message">
+                您好！我是基于本地Ollama服务的AI助手，请问有什么可以帮您？
+            </div>
+        </div>
+        
+        <div id="input-container">
+            <input type="text" id="user-input" placeholder="输入您的问题..." autocomplete="off">
+            <button id="send-button" disabled>发送</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const chatWindow = document.getElementById('chat-window');
+            const userInput = document.getElementById('user-input');
+            const sendButton = document.getElementById('send-button');
+            
+            // 检查Ollama服务是否可用
+            checkOllamaService();
+            
+            // 输入框变化时检查内容
+            userInput.addEventListener('input', () => {
+                sendButton.disabled = userInput.value.trim() === '';
+            });
+            
+            // 发送按钮点击事件
+            sendButton.addEventListener('click', sendMessage);
+            
+            // 输入框回车发送
+            userInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter' && !sendButton.disabled) {
+                    sendMessage();
+                }
+            });
+            
+            function sendMessage() {
+                const message = userInput.value.trim();
+                if (!message) return;
+                
+                // 添加用户消息到聊天窗口
+                addMessage(message, 'user-message');
+                userInput.value = '';
+                sendButton.disabled = true;
+                
+                // 显示"正在输入"提示
+                const typingIndicator = createTypingIndicator();
+                chatWindow.appendChild(typingIndicator);
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+                
+                // 发送请求到Ollama服务
+                fetch('http://localhost:11434/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        model: 'deepseek-r1:1.5b', // 使用默认模型，可替换为其他模型如qwen:7b
+                        messages: [{ role: 'user', content: message }],
+                        stream: false
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // 移除"正在输入"提示
+                    chatWindow.removeChild(typingIndicator);
+                    
+                    // 添加AI回复
+                    if (data.message && data.message.content) {
+                        content = data.message.content.replace(/\n/g, "<br>");
+                        addMessage(content, 'ai-message');
+                    } else {
+                        addMessage('抱歉，无法获取有效回复', 'ai-message');
+                    }
+                })
+                .catch(error => {
+                    console.error('请求错误:', error);
+                    chatWindow.removeChild(typingIndicator);
+                    addMessage(`连接Ollama服务失败: ${error.message}`, 'ai-message');
+                });
+            }
+            
+            function addMessage(text, className) {
+                const messageElement = document.createElement('div');
+                messageElement.classList.add('message', className);
+                messageElement.textContent = text;
+                chatWindow.appendChild(messageElement);
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            }
+            
+            function createTypingIndicator() {
+                const indicator = document.createElement('div');
+                indicator.classList.add('message', 'ai-message');
+                indicator.innerHTML = '<span class="typing-indicator">思考中...</span>';
+                return indicator;
+            }
+            
+            function checkOllamaService() {
+                fetch('http://localhost:11434')
+                    .then(response => {
+                        if (!response.ok) throw new Error('服务不可用');
+                        sendButton.disabled = false;
+                        userInput.placeholder = "输入您的问题...";
+                    })
+                    .catch(() => {
+                        userInput.placeholder = "请先启动Ollama服务...";
+                        addMessage('Ollama服务未运行。请确保已安装并启动了Ollama服务', 'ai-message');
+                    });
+            }
+        });
+    </script>
+</body>
+</html>

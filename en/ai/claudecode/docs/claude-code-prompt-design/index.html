@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="zh" class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -11,27 +11,29 @@
       
       
       
+        <link rel="prev" href="../../claudecode/">
       
-        <link rel="next" href="ai/">
+      
+        <link rel="next" href="../prompt/">
       
       
         
-          <link rel="alternate" href="/" hreflang="zh">
+          <link rel="alternate" href="../../../../../ai/claudecode/docs/claude-code-prompt-design/" hreflang="zh">
         
-          <link rel="alternate" href="/en/" hreflang="en">
+          <link rel="alternate" href="./" hreflang="en">
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>资料</title>
+        <title>Claude Code 提示词设计深度解析：设计哲学与最佳实践 - 资料</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.484c7ddc.min.css">
       
       
 
@@ -50,7 +52,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -68,8 +70,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
-          跳转至
+        <a href="#claude-code" class="md-skip">
+          Skip to content
         </a>
       
     </div>
@@ -83,8 +85,8 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="." title="资料" class="md-header__button md-logo" aria-label="资料" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../" title="资料" class="md-header__button md-logo" aria-label="资料" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -104,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              主页
+              Claude Code 提示词设计深度解析：设计哲学与最佳实践
             
           </span>
         </div>
@@ -118,20 +120,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="选择当前语言">
+    <button class="md-header__button md-icon" aria-label="Select language">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="/" hreflang="zh" class="md-select__link">
+            <a href="../../../../../ai/claudecode/docs/claude-code-prompt-design/" hreflang="zh" class="md-select__link">
               简体中文
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/en/" hreflang="en" class="md-select__link">
+            <a href="./" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -166,9 +168,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="资料" class="md-nav__button md-logo" aria-label="资料" data-md-component="logo">
+    <a href="../../../../" title="资料" class="md-nav__button md-logo" aria-label="资料" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -183,37 +185,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    主页
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../../" class="md-nav__link">
         
   
   
@@ -229,103 +204,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#-servicetool" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        服务/工具 - service/tool
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-large-language-model" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        大模型- large language model
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-bigdata" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        大数据 - bigdata
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-database" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        数据库 - database
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-algorithm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        算法 - algorithm
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-application" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        应用 - application
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        系统 - system
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -334,18 +212,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -366,7 +246,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -384,7 +264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/" class="md-nav__link">
+      <a href="../../../" class="md-nav__link">
         
   
   
@@ -412,7 +292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/PROMPT/" class="md-nav__link">
+      <a href="../../../PROMPT/" class="md-nav__link">
         
   
   
@@ -440,7 +320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/PROVIDER/" class="md-nav__link">
+      <a href="../../../PROVIDER/" class="md-nav__link">
         
   
   
@@ -468,7 +348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/skills/" class="md-nav__link">
+      <a href="../../../skills/" class="md-nav__link">
         
   
   
@@ -543,7 +423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/aichat/" class="md-nav__link">
+      <a href="../../../aichat/" class="md-nav__link">
         
   
   
@@ -571,7 +451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/aichat/GITHUB_README/" class="md-nav__link">
+      <a href="../../../aichat/GITHUB_README/" class="md-nav__link">
         
   
   
@@ -693,7 +573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/aichat/conf/roles/cosplay/" class="md-nav__link">
+      <a href="../../../aichat/conf/roles/cosplay/" class="md-nav__link">
         
   
   
@@ -721,7 +601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/aichat/conf/roles/emoji/" class="md-nav__link">
+      <a href="../../../aichat/conf/roles/emoji/" class="md-nav__link">
         
   
   
@@ -749,7 +629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/aichat/conf/roles/news/" class="md-nav__link">
+      <a href="../../../aichat/conf/roles/news/" class="md-nav__link">
         
   
   
@@ -777,7 +657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/aichat/conf/roles/translate/" class="md-nav__link">
+      <a href="../../../aichat/conf/roles/translate/" class="md-nav__link">
         
   
   
@@ -826,18 +706,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" checked>
         
           
           <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
@@ -858,7 +740,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -876,7 +758,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/claudecode/claudecode/" class="md-nav__link">
+      <a href="../../claudecode/" class="md-nav__link">
         
   
   
@@ -901,18 +783,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_6_2" id="__nav_2_6_2_label" tabindex="0">
@@ -933,7 +817,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_6_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -948,10 +832,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="ai/claudecode/docs/claude-code-prompt-design/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Claude Code 提示词设计深度解析：设计哲学与最佳实践
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -967,6 +878,632 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        目录
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 概述
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 核心设计哲学
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 核心设计哲学">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 "大道至简，拥抱简单"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 显式优于隐式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 结构优于长度
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Prompt 即程序
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 系统 Prompt 的分层动态组装架构
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 系统 Prompt 的分层动态组装架构">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        缓存边界的工程智慧
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-u" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. U 型注意力曲线与信息架构
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. U 型注意力曲线与信息架构">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 认知科学的 Prompt 应用
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-remember" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 "Remember:" 重复机制
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-section" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 模块化 Section 设计
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 模块化 Section 设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 七层架构的模块化哲学
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 配置驱动的动态生成
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 否定指令的力量：行为约束的艺术
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. 否定指令的力量：行为约束的艺术">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 "不要做什么"比"请做什么"更有效
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 工具路由的强制规范
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 并行化与效率优化
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 并行化与效率优化">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 显式鼓励并行工具调用
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 输出约束间接管理行为
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 上下文管理的三层分离架构
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. 上下文管理的三层分离架构">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 三层分离
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 上下文窗口管理
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-claudemd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. CLAUDE.md 机制：渐进式知识加载
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. CLAUDE.md 机制：渐进式知识加载">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 设计原则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92-claudemd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 CLAUDE.md 最佳实践
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. 安全边界的双向约束设计
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. 安全边界的双向约束设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#101" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.1 "允许什么"与"禁止什么"的明确表述
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#102" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.2 安全规则的层次化部署
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. 子智能体的专门化 Prompt 设计
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. 子智能体的专门化 Prompt 设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.1 能力限制原则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-explore-agent-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.2 Explore Agent 的 Prompt 示例
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. 条件性 Prompt 注入与动态行为
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. 条件性 Prompt 注入与动态行为">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.1 环境感知的 Prompt 修改
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-kairos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.2 Kairos——后台守护进程的记忆管理
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. 用户侧最佳实践
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. 用户侧最佳实践">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.1 工作流程
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.2 提供验证机制
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3 提供精确上下文
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4 利用扩展思考
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#135" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5 上下文管理技巧
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. 实践清单总结
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. 实践清单总结">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        架构层
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        内容层
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        交互层
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        安全层
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. 参考资料
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -979,7 +1516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/claudecode/docs/prompt/" class="md-nav__link">
+      <a href="../prompt/" class="md-nav__link">
         
   
   
@@ -1007,7 +1544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/claudecode/docs/prompt_system-zh/" class="md-nav__link">
+      <a href="../prompt_system-zh/" class="md-nav__link">
         
   
   
@@ -1035,7 +1572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/claudecode/docs/prompt_system/" class="md-nav__link">
+      <a href="../prompt_system/" class="md-nav__link">
         
   
   
@@ -1063,7 +1600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/claudecode/docs/prompt_tools/" class="md-nav__link">
+      <a href="../prompt_tools/" class="md-nav__link">
         
   
   
@@ -1091,7 +1628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/claudecode/docs/prompt_user/" class="md-nav__link">
+      <a href="../prompt_user/" class="md-nav__link">
         
   
   
@@ -1119,7 +1656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/claudecode/docs/skill_create/" class="md-nav__link">
+      <a href="../skill_create/" class="md-nav__link">
         
   
   
@@ -1210,7 +1747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/docs/api_of_openai_vs_anthropic/" class="md-nav__link">
+      <a href="../../../docs/api_of_openai_vs_anthropic/" class="md-nav__link">
         
   
   
@@ -1293,7 +1830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/litellm/" class="md-nav__link">
+      <a href="../../../litellm/" class="md-nav__link">
         
   
   
@@ -1376,7 +1913,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/opencode/" class="md-nav__link">
+      <a href="../../../opencode/" class="md-nav__link">
         
   
   
@@ -1451,7 +1988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/opencode/docs/prompt_system/" class="md-nav__link">
+      <a href="../../../opencode/docs/prompt_system/" class="md-nav__link">
         
   
   
@@ -1542,7 +2079,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/vllm/" class="md-nav__link">
+      <a href="../../../vllm/" class="md-nav__link">
         
   
   
@@ -1625,7 +2162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/whisper/" class="md-nav__link">
+      <a href="../../../whisper/" class="md-nav__link">
         
   
   
@@ -1653,7 +2190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/whisper/faster-whisper/" class="md-nav__link">
+      <a href="../../../whisper/faster-whisper/" class="md-nav__link">
         
   
   
@@ -1681,7 +2218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/whisper/openai-whisper/" class="md-nav__link">
+      <a href="../../../whisper/openai-whisper/" class="md-nav__link">
         
   
   
@@ -1709,7 +2246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ai/whisper/whisper.cpp/" class="md-nav__link">
+      <a href="../../../whisper/whisper.cpp/" class="md-nav__link">
         
   
   
@@ -1799,7 +2336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="algorithm/" class="md-nav__link">
+      <a href="../../../../algorithm/" class="md-nav__link">
         
   
   
@@ -1874,7 +2411,7 @@
   
   
     <li class="md-nav__item">
-      <a href="algorithm/graph/" class="md-nav__link">
+      <a href="../../../../algorithm/graph/" class="md-nav__link">
         
   
   
@@ -1957,7 +2494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="algorithm/route_plan/" class="md-nav__link">
+      <a href="../../../../algorithm/route_plan/" class="md-nav__link">
         
   
   
@@ -1985,7 +2522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="algorithm/route_plan/ch_cch/" class="md-nav__link">
+      <a href="../../../../algorithm/route_plan/ch_cch/" class="md-nav__link">
         
   
   
@@ -2068,7 +2605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="algorithm/spline/" class="md-nav__link">
+      <a href="../../../../algorithm/spline/" class="md-nav__link">
         
   
   
@@ -2205,7 +2742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="app/alist/" class="md-nav__link">
+      <a href="../../../../app/alist/" class="md-nav__link">
         
   
   
@@ -2288,7 +2825,7 @@
   
   
     <li class="md-nav__item">
-      <a href="app/chrome/" class="md-nav__link">
+      <a href="../../../../app/chrome/" class="md-nav__link">
         
   
   
@@ -2371,7 +2908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="app/jellyfin/" class="md-nav__link">
+      <a href="../../../../app/jellyfin/" class="md-nav__link">
         
   
   
@@ -2454,7 +2991,7 @@
   
   
     <li class="md-nav__item">
-      <a href="app/kodi/" class="md-nav__link">
+      <a href="../../../../app/kodi/" class="md-nav__link">
         
   
   
@@ -2537,7 +3074,7 @@
   
   
     <li class="md-nav__item">
-      <a href="app/komga/" class="md-nav__link">
+      <a href="../../../../app/komga/" class="md-nav__link">
         
   
   
@@ -2620,7 +3157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="app/plex/" class="md-nav__link">
+      <a href="../../../../app/plex/" class="md-nav__link">
         
   
   
@@ -2703,7 +3240,7 @@
   
   
     <li class="md-nav__item">
-      <a href="app/sillytavern/" class="md-nav__link">
+      <a href="../../../../app/sillytavern/" class="md-nav__link">
         
   
   
@@ -2731,7 +3268,7 @@
   
   
     <li class="md-nav__item">
-      <a href="app/sillytavern/CharacterCard/" class="md-nav__link">
+      <a href="../../../../app/sillytavern/CharacterCard/" class="md-nav__link">
         
   
   
@@ -2759,7 +3296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="app/sillytavern/card/" class="md-nav__link">
+      <a href="../../../../app/sillytavern/card/" class="md-nav__link">
         
   
   
@@ -2787,7 +3324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="app/sillytavern/spec/" class="md-nav__link">
+      <a href="../../../../app/sillytavern/spec/" class="md-nav__link">
         
   
   
@@ -2924,7 +3461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/hadoop/" class="md-nav__link">
+      <a href="../../../../big_data/hadoop/" class="md-nav__link">
         
   
   
@@ -2952,7 +3489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/hadoop/0-install/" class="md-nav__link">
+      <a href="../../../../big_data/hadoop/0-install/" class="md-nav__link">
         
   
   
@@ -2980,7 +3517,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/hadoop/1-HDFS/" class="md-nav__link">
+      <a href="../../../../big_data/hadoop/1-HDFS/" class="md-nav__link">
         
   
   
@@ -3008,7 +3545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/hadoop/2-MapReduce/" class="md-nav__link">
+      <a href="../../../../big_data/hadoop/2-MapReduce/" class="md-nav__link">
         
   
   
@@ -3036,7 +3573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/hadoop/3-YARN/" class="md-nav__link">
+      <a href="../../../../big_data/hadoop/3-YARN/" class="md-nav__link">
         
   
   
@@ -3119,7 +3656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/hbase/" class="md-nav__link">
+      <a href="../../../../big_data/hbase/" class="md-nav__link">
         
   
   
@@ -3202,7 +3739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/hive/" class="md-nav__link">
+      <a href="../../../../big_data/hive/" class="md-nav__link">
         
   
   
@@ -3230,7 +3767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/hive/HIVE%E6%95%B0%E6%8D%AE%E5%88%86%E5%B1%82/" class="md-nav__link">
+      <a href="../../../../big_data/hive/HIVE%E6%95%B0%E6%8D%AE%E5%88%86%E5%B1%82/" class="md-nav__link">
         
   
   
@@ -3258,7 +3795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/hive/HSQL_CONCAT_WS/" class="md-nav__link">
+      <a href="../../../../big_data/hive/HSQL_CONCAT_WS/" class="md-nav__link">
         
   
   
@@ -3341,7 +3878,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/kafka/" class="md-nav__link">
+      <a href="../../../../big_data/kafka/" class="md-nav__link">
         
   
   
@@ -3424,7 +3961,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/spark/" class="md-nav__link">
+      <a href="../../../../big_data/spark/" class="md-nav__link">
         
   
   
@@ -3452,7 +3989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/spark/spark-sql/" class="md-nav__link">
+      <a href="../../../../big_data/spark/spark-sql/" class="md-nav__link">
         
   
   
@@ -3535,7 +4072,7 @@
   
   
     <li class="md-nav__item">
-      <a href="big_data/zookeeper/" class="md-nav__link">
+      <a href="../../../../big_data/zookeeper/" class="md-nav__link">
         
   
   
@@ -3672,7 +4209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="db/common_sql/CTE/" class="md-nav__link">
+      <a href="../../../../db/common_sql/CTE/" class="md-nav__link">
         
   
   
@@ -3755,7 +4292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="db/duckdb/" class="md-nav__link">
+      <a href="../../../../db/duckdb/" class="md-nav__link">
         
   
   
@@ -3783,7 +4320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="db/duckdb/with_json/" class="md-nav__link">
+      <a href="../../../../db/duckdb/with_json/" class="md-nav__link">
         
   
   
@@ -3866,7 +4403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="db/postgresql/" class="md-nav__link">
+      <a href="../../../../db/postgresql/" class="md-nav__link">
         
   
   
@@ -3949,7 +4486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="db/redis/" class="md-nav__link">
+      <a href="../../../../db/redis/" class="md-nav__link">
         
   
   
@@ -4032,7 +4569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="db/sqlite/" class="md-nav__link">
+      <a href="../../../../db/sqlite/" class="md-nav__link">
         
   
   
@@ -4169,7 +4706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="os/centos/" class="md-nav__link">
+      <a href="../../../../os/centos/" class="md-nav__link">
         
   
   
@@ -4252,7 +4789,7 @@
   
   
     <li class="md-nav__item">
-      <a href="os/mac/" class="md-nav__link">
+      <a href="../../../../os/mac/" class="md-nav__link">
         
   
   
@@ -4280,7 +4817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="os/mac/homebrew/" class="md-nav__link">
+      <a href="../../../../os/mac/homebrew/" class="md-nav__link">
         
   
   
@@ -4308,7 +4845,7 @@
   
   
     <li class="md-nav__item">
-      <a href="os/mac/nvm/" class="md-nav__link">
+      <a href="../../../../os/mac/nvm/" class="md-nav__link">
         
   
   
@@ -4336,7 +4873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="os/mac/version_history/" class="md-nav__link">
+      <a href="../../../../os/mac/version_history/" class="md-nav__link">
         
   
   
@@ -4419,7 +4956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="os/mixly/" class="md-nav__link">
+      <a href="../../../../os/mixly/" class="md-nav__link">
         
   
   
@@ -4502,7 +5039,7 @@
   
   
     <li class="md-nav__item">
-      <a href="os/raspberrypi/" class="md-nav__link">
+      <a href="../../../../os/raspberrypi/" class="md-nav__link">
         
   
   
@@ -4530,7 +5067,7 @@
   
   
     <li class="md-nav__item">
-      <a href="os/raspberrypi/pi-4b/" class="md-nav__link">
+      <a href="../../../../os/raspberrypi/pi-4b/" class="md-nav__link">
         
   
   
@@ -4613,7 +5150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="os/ubuntu/" class="md-nav__link">
+      <a href="../../../../os/ubuntu/" class="md-nav__link">
         
   
   
@@ -4696,7 +5233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="os/windows/" class="md-nav__link">
+      <a href="../../../../os/windows/" class="md-nav__link">
         
   
   
@@ -4833,7 +5370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/bash/" class="md-nav__link">
+      <a href="../../../../service/bash/" class="md-nav__link">
         
   
   
@@ -4916,7 +5453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/docker/" class="md-nav__link">
+      <a href="../../../../service/docker/" class="md-nav__link">
         
   
   
@@ -4999,7 +5536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/elasticsearch/" class="md-nav__link">
+      <a href="../../../../service/elasticsearch/" class="md-nav__link">
         
   
   
@@ -5082,7 +5619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/git/" class="md-nav__link">
+      <a href="../../../../service/git/" class="md-nav__link">
         
   
   
@@ -5165,7 +5702,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/jenkins/" class="md-nav__link">
+      <a href="../../../../service/jenkins/" class="md-nav__link">
         
   
   
@@ -5248,7 +5785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/markdown/" class="md-nav__link">
+      <a href="../../../../service/markdown/" class="md-nav__link">
         
   
   
@@ -5276,7 +5813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/markdown/formula/" class="md-nav__link">
+      <a href="../../../../service/markdown/formula/" class="md-nav__link">
         
   
   
@@ -5304,7 +5841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/markdown/mermaid/" class="md-nav__link">
+      <a href="../../../../service/markdown/mermaid/" class="md-nav__link">
         
   
   
@@ -5379,7 +5916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/markdown/examples/01-basic/" class="md-nav__link">
+      <a href="../../../../service/markdown/examples/01-basic/" class="md-nav__link">
         
   
   
@@ -5407,7 +5944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/markdown/examples/10-mermaid/" class="md-nav__link">
+      <a href="../../../../service/markdown/examples/10-mermaid/" class="md-nav__link">
         
   
   
@@ -5498,7 +6035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/nginx/" class="md-nav__link">
+      <a href="../../../../service/nginx/" class="md-nav__link">
         
   
   
@@ -5526,7 +6063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/nginx/tengine/" class="md-nav__link">
+      <a href="../../../../service/nginx/tengine/" class="md-nav__link">
         
   
   
@@ -5609,7 +6146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/podman/" class="md-nav__link">
+      <a href="../../../../service/podman/" class="md-nav__link">
         
   
   
@@ -5692,7 +6229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/supervisor/" class="md-nav__link">
+      <a href="../../../../service/supervisor/" class="md-nav__link">
         
   
   
@@ -5775,7 +6312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/v2ray/" class="md-nav__link">
+      <a href="../../../../service/v2ray/" class="md-nav__link">
         
   
   
@@ -5803,7 +6340,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/v2ray/pac/" class="md-nav__link">
+      <a href="../../../../service/v2ray/pac/" class="md-nav__link">
         
   
   
@@ -5886,7 +6423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="service/vim/" class="md-nav__link">
+      <a href="../../../../service/vim/" class="md-nav__link">
         
   
   
@@ -5976,7 +6513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/" class="md-nav__link">
+      <a href="../../../../shell_command/" class="md-nav__link">
         
   
   
@@ -6051,7 +6588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/data_process/awk/" class="md-nav__link">
+      <a href="../../../../shell_command/data_process/awk/" class="md-nav__link">
         
   
   
@@ -6079,7 +6616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/data_process/comm/" class="md-nav__link">
+      <a href="../../../../shell_command/data_process/comm/" class="md-nav__link">
         
   
   
@@ -6107,7 +6644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/data_process/ffmpeg/" class="md-nav__link">
+      <a href="../../../../shell_command/data_process/ffmpeg/" class="md-nav__link">
         
   
   
@@ -6135,7 +6672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/data_process/hexdump/" class="md-nav__link">
+      <a href="../../../../shell_command/data_process/hexdump/" class="md-nav__link">
         
   
   
@@ -6163,7 +6700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/data_process/jq/" class="md-nav__link">
+      <a href="../../../../shell_command/data_process/jq/" class="md-nav__link">
         
   
   
@@ -6191,7 +6728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/data_process/ogr2ogr/" class="md-nav__link">
+      <a href="../../../../shell_command/data_process/ogr2ogr/" class="md-nav__link">
         
   
   
@@ -6219,7 +6756,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/data_process/pandoc/" class="md-nav__link">
+      <a href="../../../../shell_command/data_process/pandoc/" class="md-nav__link">
         
   
   
@@ -6247,7 +6784,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/data_process/sed/" class="md-nav__link">
+      <a href="../../../../shell_command/data_process/sed/" class="md-nav__link">
         
   
   
@@ -6275,7 +6812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/data_process/tts/" class="md-nav__link">
+      <a href="../../../../shell_command/data_process/tts/" class="md-nav__link">
         
   
   
@@ -6303,7 +6840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/data_process/vim/" class="md-nav__link">
+      <a href="../../../../shell_command/data_process/vim/" class="md-nav__link">
         
   
   
@@ -6386,7 +6923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/file_directory/find/" class="md-nav__link">
+      <a href="../../../../shell_command/file_directory/find/" class="md-nav__link">
         
   
   
@@ -6414,7 +6951,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/file_directory/rename/" class="md-nav__link">
+      <a href="../../../../shell_command/file_directory/rename/" class="md-nav__link">
         
   
   
@@ -6442,7 +6979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/file_directory/test/" class="md-nav__link">
+      <a href="../../../../shell_command/file_directory/test/" class="md-nav__link">
         
   
   
@@ -6470,7 +7007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/file_directory/unrar/" class="md-nav__link">
+      <a href="../../../../shell_command/file_directory/unrar/" class="md-nav__link">
         
   
   
@@ -6498,7 +7035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/file_directory/xargs/" class="md-nav__link">
+      <a href="../../../../shell_command/file_directory/xargs/" class="md-nav__link">
         
   
   
@@ -6581,7 +7118,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/funny/" class="md-nav__link">
+      <a href="../../../../shell_command/funny/" class="md-nav__link">
         
   
   
@@ -6664,7 +7201,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/network/lsof/" class="md-nav__link">
+      <a href="../../../../shell_command/network/lsof/" class="md-nav__link">
         
   
   
@@ -6692,7 +7229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/network/nmap/" class="md-nav__link">
+      <a href="../../../../shell_command/network/nmap/" class="md-nav__link">
         
   
   
@@ -6720,7 +7257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/network/tcpdump/" class="md-nav__link">
+      <a href="../../../../shell_command/network/tcpdump/" class="md-nav__link">
         
   
   
@@ -6803,7 +7340,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/system/date/" class="md-nav__link">
+      <a href="../../../../shell_command/system/date/" class="md-nav__link">
         
   
   
@@ -6831,7 +7368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/system/screen/" class="md-nav__link">
+      <a href="../../../../shell_command/system/screen/" class="md-nav__link">
         
   
   
@@ -6859,7 +7396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/system/tmux/" class="md-nav__link">
+      <a href="../../../../shell_command/system/tmux/" class="md-nav__link">
         
   
   
@@ -6887,7 +7424,7 @@
   
   
     <li class="md-nav__item">
-      <a href="shell_command/system/top/" class="md-nav__link">
+      <a href="../../../../shell_command/system/top/" class="md-nav__link">
         
   
   
@@ -6977,7 +7514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="zzz/" class="md-nav__link">
+      <a href="../../../../zzz/" class="md-nav__link">
         
   
   
@@ -7005,7 +7542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="zzz/terminology/" class="md-nav__link">
+      <a href="../../../../zzz/terminology/" class="md-nav__link">
         
   
   
@@ -7046,7 +7583,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="目录">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
@@ -7055,15 +7592,15 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      目录
+      Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#-servicetool" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        服务/工具 - service/tool
+        目录
       
     </span>
   </a>
@@ -7071,10 +7608,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#-large-language-model" class="md-nav__link">
+  <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        大模型- large language model
+        1. 概述
       
     </span>
   </a>
@@ -7082,54 +7619,583 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#-bigdata" class="md-nav__link">
+  <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        大数据 - bigdata
+        2. 核心设计哲学
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 核心设计哲学">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 "大道至简，拥抱简单"
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#-database" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
     <span class="md-ellipsis">
       
-        数据库 - database
+        2.2 显式优于隐式
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#-algorithm" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
     <span class="md-ellipsis">
       
-        算法 - algorithm
+        2.3 结构优于长度
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#-application" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#24-prompt" class="md-nav__link">
     <span class="md-ellipsis">
       
-        应用 - application
+        2.4 Prompt 即程序
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#-system" class="md-nav__link">
+  <a href="#3-prompt" class="md-nav__link">
     <span class="md-ellipsis">
       
-        系统 - system
+        3. 系统 Prompt 的分层动态组装架构
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 系统 Prompt 的分层动态组装架构">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        缓存边界的工程智慧
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-u" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. U 型注意力曲线与信息架构
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. U 型注意力曲线与信息架构">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 认知科学的 Prompt 应用
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-remember" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 "Remember:" 重复机制
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-section" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 模块化 Section 设计
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 模块化 Section 设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 七层架构的模块化哲学
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 配置驱动的动态生成
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 否定指令的力量：行为约束的艺术
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. 否定指令的力量：行为约束的艺术">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 "不要做什么"比"请做什么"更有效
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 工具路由的强制规范
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 并行化与效率优化
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 并行化与效率优化">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 显式鼓励并行工具调用
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 输出约束间接管理行为
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 上下文管理的三层分离架构
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. 上下文管理的三层分离架构">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 三层分离
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 上下文窗口管理
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-claudemd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. CLAUDE.md 机制：渐进式知识加载
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. CLAUDE.md 机制：渐进式知识加载">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 设计原则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92-claudemd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 CLAUDE.md 最佳实践
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. 安全边界的双向约束设计
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. 安全边界的双向约束设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#101" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.1 "允许什么"与"禁止什么"的明确表述
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#102" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10.2 安全规则的层次化部署
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. 子智能体的专门化 Prompt 设计
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. 子智能体的专门化 Prompt 设计">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.1 能力限制原则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-explore-agent-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.2 Explore Agent 的 Prompt 示例
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. 条件性 Prompt 注入与动态行为
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. 条件性 Prompt 注入与动态行为">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.1 环境感知的 Prompt 修改
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-kairos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12.2 Kairos——后台守护进程的记忆管理
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. 用户侧最佳实践
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. 用户侧最佳实践">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.1 工作流程
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.2 提供验证机制
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3 提供精确上下文
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4 利用扩展思考
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#135" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5 上下文管理技巧
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. 实践清单总结
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. 实践清单总结">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        架构层
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        内容层
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        交互层
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        安全层
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. 参考资料
       
     </span>
   </a>
@@ -7153,61 +8219,661 @@
 
 
 
-<h1 id="_1">主页</h1>
-<h2 id="-servicetool">服务/工具 - service/tool</h2>
-<p><code>services:</code>
-<a href="service/bash/">bash</a>
-<a href="service/docker/">docker</a>
-<a href="service/elasticsearch/">elasticsearch</a>
-<a href="service/jenkins/">jenkins</a>
-<a href="service/vim/">vim</a>
-<a href="service/markdown/">markdown</a>
-<a href="service/nginx/">nginx</a>
-<a href="service/supervisor/">supervisor</a>
-<a href="service/v2ray/">v2ray</a></p>
-<p><code>tool:</code>
-<a href="shell_command/">shell-command</a>
-<a href="zzz/">zzz</a>
-<a href="zzz/terminology/">terminology</a></p>
-<h2 id="-large-language-model">大模型- large language model</h2>
-<p><a href="artificial_intelligence/README.md">AI</a>
-<a href="artificial_intelligence/PROMPT.md">PROMPT</a>
-<a href="artificial_intelligence/PROVIDER.md">PROVIDER</a>
-<a href="artificial_intelligence/aichat/README.md">aichat</a>
-<a href="artificial_intelligence/ollama/README.md">ollama</a>
-<a href="artificial_intelligence/vllm/README.md">vllm</a>
-<a href="artificial_intelligence/whisper/README.md">whisper</a></p>
-<h2 id="-bigdata">大数据 - bigdata</h2>
-<p><a href="bigdata/hadoop/README.md">hadoop</a>
-<a href="bigdata/hbase/README.md">hbase</a>
-<a href="bigdata/hive/README.md">hive</a>
-<a href="bigdata/kafka/README.md">kafka</a>
-<a href="bigdata/spark/README.md">spark</a>
-<a href="bigdata/zookeeper/README.md">zookeeper</a></p>
-<h2 id="-database">数据库 - database</h2>
-<p><a href="database/duckdb/README.md">duckdb</a>
-<a href="database/postgresql/README.md">postgresql</a>
-<a href="database/redis/README.md">redis</a>
-<a href="database/sqlite/README.md">sqlite</a></p>
-<h2 id="-algorithm">算法 - algorithm</h2>
-<p><a href="algorithm/graph/">graph</a>
-<a href="algorithm/route_plan/">route_plan</a>
-<a href="algorithm/spline/">spline</a></p>
-<h2 id="-application">应用 - application</h2>
-<p><a href="app/alist/">alist</a>
-<a href="app/jellyfin/">jellyfin</a>
-<a href="app/kodi/">kodi</a>
-<a href="app/komga/">komga</a>
-<a href="app/plex/">plex</a></p>
-<h2 id="-system">系统 - system</h2>
-<p><code>operation system:</code>
-<a href="operation_system/windows/README.md">windows</a>
-<a href="operation_system/mac/README.md">mac</a>
-<a href="operation_system/centos/README.md">centos</a>
-<a href="operation_system/ubuntu/README.md">ubuntu</a></p>
-<p><code>system on chip:</code>
-<a href="system_on_chip/mixly/README.md">mixly</a>
-<a href="system_on_chip/raspberrypi/README.md">raspberrypi</a></p>
+<h1 id="claude-code">Claude Code 提示词设计深度解析：设计哲学与最佳实践</h1>
+<blockquote>
+<p>基于 Anthropic 官方文档、2026 年 3 月泄露源码分析及社区实践总结</p>
+</blockquote>
+<hr />
+<h2 id="_1">目录</h2>
+<ol>
+<li><a href="#1-概述">概述</a></li>
+<li><a href="#2-核心设计哲学">核心设计哲学</a></li>
+<li><a href="#3-系统-prompt-的分层动态组装架构">系统 Prompt 的分层动态组装架构</a></li>
+<li><a href="#4-u-型注意力曲线与信息架构">U 型注意力曲线与信息架构</a></li>
+<li><a href="#5-模块化-section-设计">模块化 Section 设计</a></li>
+<li><a href="#6-否定指令的力量行为约束的艺术">否定指令的力量：行为约束的艺术</a></li>
+<li><a href="#7-并行化与效率优化">并行化与效率优化</a></li>
+<li><a href="#8-上下文管理的三层分离架构">上下文管理的三层分离架构</a></li>
+<li><a href="#9-claudemd-机制渐进式知识加载">CLAUDE.md 机制：渐进式知识加载</a></li>
+<li><a href="#10-安全边界的双向约束设计">安全边界的双向约束设计</a></li>
+<li><a href="#11-子智能体的专门化-prompt-设计">子智能体的专门化 Prompt 设计</a></li>
+<li><a href="#12-条件性-prompt-注入与动态行为">条件性 Prompt 注入与动态行为</a></li>
+<li><a href="#13-用户侧最佳实践">用户侧最佳实践</a></li>
+<li><a href="#14-实践清单总结">实践清单总结</a></li>
+<li><a href="#15-参考资料">参考资料</a></li>
+</ol>
+<hr />
+<h2 id="1">1. 概述</h2>
+<p>Claude Code 是 Anthropic 推出的命令行编程助手，它不仅仅是一个代码补全工具，而是一个<strong>完全代理式（Agentic）编程环境</strong>。与传统聊天机器人不同，Claude Code 能够自主读取文件、执行命令、修改代码，并在用户监督下（甚至无人值守时）完成复杂的软件工程任务。</p>
+<p>其提示词设计代表了当前生产级 AI Agent 的最高水准——<strong>不是一个 Prompt，而是一个 Prompt Runtime</strong>。通过 2026 年 3 月意外泄露的 51.2 万行 TypeScript 源码（source map），我们得以一窥这套"大脑"的完整设计。</p>
+<hr />
+<h2 id="2">2. 核心设计哲学</h2>
+<h3 id="21">2.1 "大道至简，拥抱简单"</h3>
+<p>Claude Code 的 Prompt 设计体现了极简主义哲学：</p>
+<table>
+<thead>
+<tr>
+<th>传统 Agent 设计</th>
+<th>Claude Code 设计</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>复杂的状态机</td>
+<td>清晰的边界和规则</td>
+</tr>
+<tr>
+<td>多阶段 Pipeline</td>
+<td>让模型自主决策</td>
+</tr>
+<tr>
+<td>精细的流程控制</td>
+<td>用 Prompt 约束替代代码控制</td>
+</tr>
+<tr>
+<td>大量 if-else 逻辑</td>
+<td>否定指令防止不良行为</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心理念：约束优于控制（Constraints over Control）</strong></p>
+<p>通过清晰的边界和否定指令，Claude Code 反而让模型获得了更大的自主决策空间。即使遇到意外情况，模型也能基于 Prompt 中的原则做出合理决策，而不是因为流程图没覆盖而崩溃。</p>
+<h3 id="22">2.2 显式优于隐式</h3>
+<p>所有行为规则都显式地写在 Prompt 中，而非隐藏在代码逻辑里：</p>
+<table>
+<thead>
+<tr>
+<th>隐式（坏）</th>
+<th>显式（好）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>代码中过滤危险 Bash 命令</td>
+<td>Prompt 中声明 "禁止 rm -rf /"</td>
+</tr>
+<tr>
+<td>后端限制 token 输出长度</td>
+<td>Prompt 中要求 "≤25 words"</td>
+</tr>
+<tr>
+<td>代码中硬编码工具选择逻辑</td>
+<td>Prompt 中声明 "Use Read instead of cat"</td>
+</tr>
+</tbody>
+</table>
+<p>优势：<strong>可解释性</strong>（用户可见规则）、<strong>可调试性</strong>（Prompt 层面修复）、<strong>灵活性</strong>（改 Prompt 不改代码）。</p>
+<h3 id="23">2.3 结构优于长度</h3>
+<p>大量使用结构化标记（Markdown 标题、列表、XML 标签），而非自然语言段落：</p>
+<ul>
+<li>更易被模型解析</li>
+<li>更易被人类维护</li>
+<li>更易进行版本 diff</li>
+</ul>
+<h3 id="24-prompt">2.4 Prompt 即程序</h3>
+<p>Claude Code 将 Prompt 提升到了代码同等重要的地位，用工程化的方法（模块化、缓存、版本控制、条件注入）来管理"软件 2.0"的核心逻辑。<strong>好的 Prompt 设计就是产品竞争力的核心壁垒。</strong></p>
+<hr />
+<h2 id="3-prompt">3. 系统 Prompt 的分层动态组装架构</h2>
+<p>传统观念认为系统 Prompt 是一个固定文本块。Claude Code 彻底颠覆了这一认知——其系统 Prompt 是通过<strong>六层优先级动态组装</strong>的复杂运行时：</p>
+<pre><code>┌─────────────────────────────────────────────────────────┐
+│ 优先级1: Override Prompt (最高优先级)                     │
+│   └── 完全替换所有内容，如 Simple Mode                    │
+├─────────────────────────────────────────────────────────┤
+│ 优先级2: Coordinator Prompt                              │
+│   └── 多智能体协调模式                                    │
+├─────────────────────────────────────────────────────────┤
+│ 优先级3: Agent Prompt                                    │
+│   └── 子智能体模式或追加到主 Prompt                        │
+├─────────────────────────────────────────────────────────┤
+│ 优先级4: Custom Prompt                                   │
+│   └── 用户通过 --system-prompt 注入                      │
+├─────────────────────────────────────────────────────────┤
+│ 优先级5: Default Prompt (默认系统 Prompt)                 │
+│   └── 7 个核心 Section 组成的基础架构                     │
+├─────────────────────────────────────────────────────────┤
+│ 优先级6: Append Prompt (动态环境信息)                     │
+│   └── 内存、MCP、语言规则等实时数据                       │
+└─────────────────────────────────────────────────────────┘
+</code></pre>
+<p><strong>核心规律：高层级完全替换低层级，而非简单拼接。</strong></p>
+<p>这种设计的精妙之处在于<strong>隔离性</strong>。当用户需要 "Simple Mode" 时，系统不需要修改基础 Prompt 的任何内容，只需在最高优先级注入覆盖层即可。这种"替换优于修改"的原则，避免了 Prompt 工程的常见陷阱——随着功能增加，Prompt 变得臃肿混乱。</p>
+<h3 id="_2">缓存边界的工程智慧</h3>
+<p>Claude Code 将 Prompt 分为<strong>可缓存前缀</strong>和<strong>会话特定后缀</strong>，中间用缓存边界分割：</p>
+<pre><code class="language-javascript">// 伪代码示意，基于泄露源码结构
+const systemPrompt = {
+  cacheablePrefix: [
+    &quot;System Prompt (身份定义)&quot;,
+    &quot;Ground rules (工具/权限规则)&quot;,
+    &quot;Internal Anthropic overrides&quot;,
+    &quot;Config-driven suffix&quot;
+  ],
+  cacheBoundary: &quot;&lt;|cache_boundary|&gt;&quot;,
+  sessionSpecificSuffix: [
+    &quot;Working directory, platform, shell, model info&quot;,
+    &quot;Language preference&quot;,
+    &quot;Output style&quot;,
+    &quot;MCP server instructions&quot;,
+    &quot;Scratchpad reminder&quot;
+  ]
+};
+</code></pre>
+<ul>
+<li><strong>性能优化</strong>：可缓存前缀在跨会话时复用，减少重复计算</li>
+<li><strong>成本控制</strong>：静态内容只需计算一次，动态内容按需追加</li>
+</ul>
+<hr />
+<h2 id="4-u">4. U 型注意力曲线与信息架构</h2>
+<h3 id="41-prompt">4.1 认知科学的 Prompt 应用</h3>
+<p>Claude Code 的设计者深刻理解 LLM 的注意力机制——<strong>"Lost in the Middle" 效应</strong>（U 型注意力曲线）。研究表明，LLM 对 Prompt 开头和结尾的信息记忆最清晰，中间部分容易遗忘。</p>
+<p>基于此，Claude Code 采用了<strong>三明治结构</strong>：</p>
+<p><strong>开头（Primacy Effect）：</strong>
+- 身份定义："You are Claude Code"
+- 安全边界："NEVER create, modify, or improve code that may be used maliciously"
+- 核心工具路由规则</p>
+<p><strong>中间（可遗忘区）：</strong>
+- 详细的工作流描述
+- 工具参数定义
+- 示例和边界情况</p>
+<p><strong>结尾（Recency Effect）：</strong>
+- 重复关键安全规则
+- 工作流提醒："Remember: think step by step"
+- 输出格式强制要求</p>
+<h3 id="42-remember">4.2 "Remember:" 重复机制</h3>
+<p>泄露的源码显示，Claude Code 在 Prompt 结尾使用了 <strong>"Remember:" 前缀</strong>的重复机制：</p>
+<pre><code>Remember:
+- Use Read instead of cat
+- Use Grep instead of grep via Bash
+- Use Edit instead of sed via Bash
+- NEVER generate or guess URLs
+- NEVER assume URLs without user confirmation
+</code></pre>
+<p><strong>核心规律：关键规则在开头和结尾双重强化，利用首尾效应提升遵循率。</strong> 这种重复不是冗余，而是认知强化。当模型生成响应时，最后读取到的指令会对其产生更强的约束作用。</p>
+<hr />
+<h2 id="5-section">5. 模块化 Section 设计</h2>
+<h3 id="51">5.1 七层架构的模块化哲学</h3>
+<p>Claude Code 的系统 Prompt 由七个核心 Section 组成，每个 Section 职责单一、边界清晰：</p>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>职责</th>
+<th>更新频率</th>
+<th>缓存策略</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>System Prompt</td>
+<td>身份定义、核心能力声明</td>
+<td>极低</td>
+<td>长期缓存</td>
+</tr>
+<tr>
+<td>Ground Rules</td>
+<td>工具使用规则、安全边界</td>
+<td>低</td>
+<td>版本缓存</td>
+</tr>
+<tr>
+<td>Internal Overrides</td>
+<td>内部策略（如 Undercover Mode）</td>
+<td>中</td>
+<td>条件缓存</td>
+</tr>
+<tr>
+<td>Config Suffix</td>
+<td>用户配置（语言、风格）</td>
+<td>中</td>
+<td>会话缓存</td>
+</tr>
+<tr>
+<td>Environment Info</td>
+<td>工作目录、平台、Shell</td>
+<td>高</td>
+<td>不缓存</td>
+</tr>
+<tr>
+<td>MCP Instructions</td>
+<td>外部工具能力</td>
+<td>高</td>
+<td>动态加载</td>
+</tr>
+<tr>
+<td>Scratchpad Reminder</td>
+<td>记忆管理提示</td>
+<td>每轮</td>
+<td>实时生成</td>
+</tr>
+</tbody>
+</table>
+<p>模块化设计的优势：
+- <strong>独立更新</strong>：修改安全规则不需要触碰身份定义
+- <strong>A/B 测试</strong>：可以单独替换某个 Section 测试效果
+- <strong>故障隔离</strong>：某个 Section 的问题不会扩散到整体
+- <strong>版本管理</strong>：每个 Section 可以独立版本化</p>
+<h3 id="52">5.2 配置驱动的动态生成</h3>
+<p>输出风格不是硬编码，而是通过配置注入：</p>
+<pre><code class="language-javascript">const outputStyles = {
+  concise: &quot;Be concise. Use ≤25 words between tool calls.&quot;,
+  verbose: &quot;Provide detailed explanations for complex operations.&quot;,
+  architect: &quot;Focus on high-level design. No implementation details unless requested.&quot;
+};
+
+const systemPrompt = generatePrompt({
+  base: defaultPrompt,
+  style: outputStyles[config.style],
+  language: config.language,
+  mcpServers: config.mcpServers
+});
+</code></pre>
+<p><strong>核心规律：静态内容前置用于缓存，动态内容后置，用缓存边界优化性能和成本。</strong></p>
+<hr />
+<h2 id="6">6. 否定指令的力量：行为约束的艺术</h2>
+<h3 id="61">6.1 "不要做什么"比"请做什么"更有效</h3>
+<p>Claude Code 的 Prompt 中充满了否定式指令，这违背了传统的"礼貌性 Prompt"观念，但效果显著：</p>
+<p><strong>传统做法（弱）：</strong></p>
+<pre><code>Please try to be concise and avoid using emojis.
+</code></pre>
+<p><strong>Claude Code 做法（强）：</strong></p>
+<pre><code>No emojis.
+No extra features.
+No premature abstractions.
+No time estimates.
+NEVER generate or guess URLs.
+NEVER assume URLs without user confirmation.
+</code></pre>
+<p>绝对化否定的优势：
+- <strong>消除歧义</strong>："请尽量简洁"是模糊的，"≤25 words"是明确的
+- <strong>强化约束</strong>："NEVER" 比 "请不要" 在模型权重中产生更强的抑制
+- <strong>减少讨好行为</strong>：模型不会为了"帮助用户"而违反明确禁令</p>
+<h3 id="62">6.2 工具路由的强制规范</h3>
+<p>Claude Code 在 Prompt 中硬编码了工具选择规则，强制模型使用专用工具而非通用 Bash 命令：</p>
+<table>
+<thead>
+<tr>
+<th>禁止（Bash）</th>
+<th>强制（专用工具）</th>
+<th>设计意图</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>cat file</code></td>
+<td>Read tool</td>
+<td>获得结构化文件内容</td>
+</tr>
+<tr>
+<td><code>grep pattern</code></td>
+<td>Grep tool</td>
+<td>跨文件搜索，带上下文</td>
+</tr>
+<tr>
+<td><code>ls -la</code></td>
+<td>Glob + Read</td>
+<td>安全的目录遍历</td>
+</tr>
+<tr>
+<td><code>sed -i</code></td>
+<td>Edit tool</td>
+<td>原子化编辑，可回滚</td>
+</tr>
+<tr>
+<td><code>git diff</code></td>
+<td>内部 Git 集成</td>
+<td>结构化 diff，带行号</td>
+</tr>
+</tbody>
+</table>
+<p>这种工具路由的设计，本质上是在 Prompt 层面建立<strong>抽象层</strong>。模型不需要知道底层是 Linux 还是 Windows，只需要调用 Read 工具，由运行时处理具体实现。</p>
+<p><strong>核心规律：使用否定式指令（No/NEVER）和具体替代方案，而非模糊的"请"或"建议"。</strong></p>
+<hr />
+<h2 id="7">7. 并行化与效率优化</h2>
+<h3 id="71">7.1 显式鼓励并行工具调用</h3>
+<p>Claude Code 的 Prompt 中明确包含：</p>
+<pre><code>Whenever possible, run independent tool calls in parallel.
+</code></pre>
+<p>这不是建议，而是架构级的设计原则。Claude Code 会分析任务依赖图，将独立操作批量提交：</p>
+<pre><code>用户请求：&quot;分析这个项目的架构&quot;
+↓
+并行执行：
+  ├── Glob(&quot;**/*.md&quot;) → 查找文档
+  ├── Read(&quot;package.json&quot;) → 了解依赖
+  ├── Grep(&quot;class.*extends&quot;, &quot;**/*.ts&quot;) → 找继承关系
+  └── Bash(&quot;find . -name '*.config.*' | head -20&quot;) → 找配置文件
+↓
+聚合结果 → 生成架构分析
+</code></pre>
+<h3 id="72">7.2 输出约束间接管理行为</h3>
+<pre><code>Use ≤25 words between tool calls.
+</code></pre>
+<p>这一约束迫使模型：
+- <strong>快速决策</strong>：不能长篇大论后再调用工具
+- <strong>批量规划</strong>：提前想好需要哪些信息，一次性并行获取
+- <strong>减少往返</strong>：降低延迟，提升用户体验</p>
+<hr />
+<h2 id="8">8. 上下文管理的三层分离架构</h2>
+<h3 id="81">8.1 三层分离</h3>
+<pre><code>┌────────────────────────────────────────┐
+│ Layer 1: System Prompt (常驻规则)       │
+│   ├── 身份定义                          │
+│   ├── 工具使用方式                      │
+│   └── 安全边界                          │
+│   特点：跨会话不变，长期缓存            │
+├────────────────────────────────────────┤
+│ Layer 2: Session Context (会话上下文)    │
+│   ├── CLAUDE.md / AGENT.md             │
+│   ├── Git status                       │
+│   ├── 当前工作目录                      │
+│   └── 用户偏好设置                      │
+│   特点：会话级，动态加载                │
+├────────────────────────────────────────┤
+│ Layer 3: Task Prompts (专项任务)        │
+│   ├── Compact mode (压缩上下文)         │
+│   ├── Memory extraction (记忆提取)      │
+│   ├── Plan mode (规划模式)              │
+│   └── Agent-specific prompts           │
+│   特点：任务触发，临时注入              │
+└────────────────────────────────────────┘
+</code></pre>
+<h3 id="82">8.2 上下文窗口管理</h3>
+<p>Claude Code 的上下文窗口是<strong>最需要管理的资源</strong>。随着对话推进，上下文填满后性能会下降。</p>
+<p>管理策略：
+- <strong>自动压缩（Auto-compaction）</strong>：接近限制时自动清理旧工具输出，然后总结对话
+- <strong><code>/compact</code> 命令</strong>：手动触发压缩，可指定焦点（如 <code>/compact focus on the API changes</code>）
+- <strong>子智能体隔离</strong>：子智能体有独立的上下文，不膨胀主对话
+- <strong>Skills 按需加载</strong>：只在使用时加载完整内容，减少常驻上下文</p>
+<hr />
+<h2 id="9-claudemd">9. CLAUDE.md 机制：渐进式知识加载</h2>
+<h3 id="91">9.1 设计原则</h3>
+<ul>
+<li>不将项目知识塞进 System Prompt</li>
+<li>在运行时读取 CLAUDE.md，注入到 Session Context</li>
+<li>支持多层级：项目根目录、子目录、用户主目录</li>
+</ul>
+<h3 id="92-claudemd">9.2 CLAUDE.md 最佳实践</h3>
+<pre><code class="language-markdown"># Code style
+- Use ES modules (import/export) syntax, not CommonJS (require)
+- Destructure imports when possible (eg. import { foo } from 'bar')
+
+# Workflow
+- Be sure to typecheck when you're done making a series of code changes
+- Prefer running single tests, and not the whole test suite, for performance
+</code></pre>
+<p>编写原则：</p>
+<table>
+<thead>
+<tr>
+<th>✅ 应该包含</th>
+<th>❌ 不应包含</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude 猜不到的 Bash 命令</td>
+<td>Claude 通过读代码能推断的内容</td>
+</tr>
+<tr>
+<td>与默认不同的代码风格规则</td>
+<td>标准语言规范（Claude 已知）</td>
+</tr>
+<tr>
+<td>测试说明和首选测试运行器</td>
+<td>详细 API 文档（改为链接）</td>
+</tr>
+<tr>
+<td>仓库礼仪（分支命名、PR 约定）</td>
+<td>一次性任务指令</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心判断标准：</strong> 对每一行问自己——"删掉这行会导致 Claude 犯错吗？" 如果不会，就删掉。臃肿的 CLAUDE.md 会导致 Claude 忽略你的实际指令。</p>
+<hr />
+<h2 id="10">10. 安全边界的双向约束设计</h2>
+<h3 id="101">10.1 "允许什么"与"禁止什么"的明确表述</h3>
+<pre><code>IMPORTANT: Assist with defensive security tasks only.
+Refuse to create, modify, or improve code that may be used maliciously.
+</code></pre>
+<p>包含三个要素：
+- <strong>正向定义</strong>："Assist with defensive security tasks"（允许防御性安全）
+- <strong>负向禁止</strong>："Refuse to… maliciously"（拒绝恶意用途）
+- <strong>绝对语言</strong>：使用 "Refuse"、"NEVER"、"MUST NOT" 等强制词汇</p>
+<h3 id="102">10.2 安全规则的层次化部署</h3>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>规则类型</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>System Prompt</td>
+<td>通用安全</td>
+<td>"NEVER create malicious code"</td>
+</tr>
+<tr>
+<td>Tool-level</td>
+<td>工具限制</td>
+<td>Bash 工具禁止 <code>rm -rf /</code></td>
+</tr>
+<tr>
+<td>Content-filter</td>
+<td>内容审查</td>
+<td>拒绝生成暴力、色情内容</td>
+</tr>
+<tr>
+<td>Undercover Mode</td>
+<td>身份隐藏</td>
+<td>检测到内部员工时自动注入</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="11-prompt">11. 子智能体的专门化 Prompt 设计</h2>
+<h3 id="111">11.1 能力限制原则</h3>
+<p>每个子智能体都有独立且受限的 Prompt：</p>
+<table>
+<thead>
+<tr>
+<th>子智能体</th>
+<th>核心职责</th>
+<th>明确禁止</th>
+<th>设计意图</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Explore Agent</td>
+<td>只读探索代码库</td>
+<td>禁止 Edit 工具</td>
+<td>防止误修改</td>
+</tr>
+<tr>
+<td>Plan Agent</td>
+<td>增强规划模式</td>
+<td>禁止执行工具</td>
+<td>专注设计不实现</td>
+</tr>
+<tr>
+<td>Verification Agent</td>
+<td>对抗性测试</td>
+<td>禁止修改代码</td>
+<td>独立验证，尝试打破实现</td>
+</tr>
+</tbody>
+</table>
+<h3 id="112-explore-agent-prompt">11.2 Explore Agent 的 Prompt 示例</h3>
+<pre><code>You are an explore-only agent.
+You can read files, search code, and understand the codebase.
+You CANNOT modify any files, create files, or run commands.
+NEVER use the Edit tool.
+NEVER use the Bash tool to modify files.
+Your goal is to provide information, not to make changes.
+</code></pre>
+<p><strong>核心规律：子智能体使用专门化 Prompt，限制能力范围。</strong> 硬边界确保子智能体不会越权操作。即使模型"想要帮助用户"，也会被 Prompt 中的绝对禁令阻止。</p>
+<hr />
+<h2 id="12-prompt">12. 条件性 Prompt 注入与动态行为</h2>
+<h3 id="121-prompt">12.1 环境感知的 Prompt 修改</h3>
+<p>Claude Code 支持条件性 Prompt 注入：</p>
+<pre><code class="language-javascript">// Undercover Mode 触发条件
+if (repoOwner === &quot;anthropics&quot; || repoOwner === &quot;anthropic-research&quot;) {
+  if (userIdentity === &quot;anthropic-employee&quot;) {
+    injectPrompt(&quot;UNDERCOVER_MODE_INSTRUCTIONS&quot;);
+  }
+}
+</code></pre>
+<p>注入的 Prompt 内容：</p>
+<pre><code>You are Claude, a helpful AI assistant.
+Do not reveal that you are Claude Code, an AI coding assistant.
+Do not mention model version numbers.
+Do not include AI attribution in your responses.
+</code></pre>
+<h3 id="122-kairos">12.2 Kairos——后台守护进程的记忆管理</h3>
+<p>Kairos（希腊语"关键时刻"）是一个后台守护进程：
+- 使用特殊的 Prompt 定期执行
+- 回顾最近的对话历史
+- 提取关键决策和上下文
+- 支持 "PROACTIVE" 标志——主动提醒用户</p>
+<p><strong>核心规律：通过环境变量或用户类型触发条件性 Prompt 注入，实现上下文感知的动态行为。</strong></p>
+<hr />
+<h2 id="13">13. 用户侧最佳实践</h2>
+<h3 id="131">13.1 工作流程</h3>
+<p><strong>推荐四阶段流程：探索 → 规划 → 编码 → 提交</strong></p>
+<ol>
+<li><strong>探索（Plan Mode）</strong>：让 Claude 阅读文件、理解架构，不做修改</li>
+<li><strong>规划</strong>：让 Claude 创建详细的实施计划，可用 <code>Ctrl+G</code> 编辑计划</li>
+<li><strong>实施</strong>：退出 Plan Mode，让 Claude 编码并验证</li>
+<li><strong>提交</strong>：让 Claude 提交代码并创建 PR</li>
+</ol>
+<blockquote>
+<p><strong>注意</strong>：Plan Mode 有额外开销。对于小改动（修错字、加日志），直接让 Claude 做。</p>
+</blockquote>
+<h3 id="132">13.2 提供验证机制</h3>
+<blockquote>
+<p><strong>核心原则：给 Claude 一个它能运行的检查——测试、构建、截图对比。这是"你看着它工作"和"你可以走开"之间的区别。</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>策略</th>
+<th>差的示例</th>
+<th>好的示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>提供验证标准</td>
+<td>"implement a function that validates email addresses"</td>
+<td>"write a validateEmail function. test cases: user@example.com is true, invalid is false. run the tests after implementing"</td>
+</tr>
+<tr>
+<td>视觉验证 UI</td>
+<td>"make the dashboard look better"</td>
+<td>"[paste screenshot] implement this design. take a screenshot and compare. list differences and fix them"</td>
+</tr>
+<tr>
+<td>定位根因</td>
+<td>"the build is failing"</td>
+<td>"the build fails with this error: [paste error]. fix it and verify the build succeeds. address the root cause"</td>
+</tr>
+</tbody>
+</table>
+<p>验证层级（从轻到重）：
+- <strong>单次 Prompt</strong>：让 Claude 在同一消息中运行检查并迭代
+- <strong><code>/goal</code> 条件</strong>：设置目标条件，每轮后重新检查
+- <strong>Stop Hook</strong>：运行脚本检查，阻塞直到通过
+- <strong>验证子智能体</strong>：让另一个模型尝试反驳结果</p>
+<h3 id="133">13.3 提供精确上下文</h3>
+<table>
+<thead>
+<tr>
+<th>策略</th>
+<th>差的示例</th>
+<th>好的示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>限定范围</td>
+<td>"add tests for foo.py"</td>
+<td>"write a test for foo.py covering the edge case where the user is logged out. avoid mocks."</td>
+</tr>
+<tr>
+<td>指向来源</td>
+<td>"why does ExecutionFactory have such a weird api?"</td>
+<td>"look through ExecutionFactory's git history and summarize how its api came to be"</td>
+</tr>
+<tr>
+<td>引用模式</td>
+<td>"add a calendar widget"</td>
+<td>"look at how existing widgets are implemented on the home page. HotDogWidget.php is a good example. follow the pattern to implement a new calendar widget"</td>
+</tr>
+<tr>
+<td>描述症状</td>
+<td>"fix the login bug"</td>
+<td>"users report that login fails after session timeout. check the auth flow in src/auth/, especially token refresh. write a failing test that reproduces the issue, then fix it"</td>
+</tr>
+</tbody>
+</table>
+<h3 id="134">13.4 利用扩展思考</h3>
+<p>使用触发词激活不同深度的思考模式：</p>
+<ul>
+<li><code>think</code> → 基础思考</li>
+<li><code>think hard</code> → 深度思考</li>
+<li><code>think harder</code> → 更深度思考</li>
+<li><code>ultrathink</code> → 最深度思考</li>
+</ul>
+<h3 id="135">13.5 上下文管理技巧</h3>
+<ul>
+<li><strong><code>/clear</code></strong>：定期清理上下文，保持对话聚焦</li>
+<li><strong>双击 Escape</strong>：快速回溯历史提示</li>
+<li><strong><code>/context</code></strong>：查看上下文使用情况</li>
+<li><strong><code>@</code> 引用文件</strong>：而非描述文件位置</li>
+<li><strong>管道输入</strong>：<code>cat error.log | claude</code> 直接发送文件内容</li>
+</ul>
+<hr />
+<h2 id="14">14. 实践清单总结</h2>
+<h3 id="_3">架构层</h3>
+<ul>
+<li>[ ] 采用分层 Prompt 组装，支持优先级覆盖</li>
+<li>[ ] 实现缓存边界，分离静态和动态内容</li>
+<li>[ ] 设计三层上下文：常驻规则、会话上下文、专项任务</li>
+<li>[ ] 支持子智能体，每个有独立且受限的 Prompt</li>
+</ul>
+<h3 id="_4">内容层</h3>
+<ul>
+<li>[ ] 利用 U 型注意力曲线，关键规则放首尾</li>
+<li>[ ] 使用否定式指令（No/NEVER）替代模糊请求</li>
+<li>[ ] 提供具体替代方案（"Use X instead of Y"）</li>
+<li>[ ] 模块化 Section，职责单一、边界清晰</li>
+</ul>
+<h3 id="_5">交互层</h3>
+<ul>
+<li>[ ] 显式鼓励并行工具调用</li>
+<li>[ ] 通过输出约束间接管理行为（如字数限制）</li>
+<li>[ ] 渐进式知识加载，Prompt 只放指针</li>
+<li>[ ] 条件性 Prompt 注入，支持环境感知行为</li>
+</ul>
+<h3 id="_6">安全层</h3>
+<ul>
+<li>[ ] 双向安全声明（允许什么 + 禁止什么）</li>
+<li>[ ] 使用绝对语言（MUST NOT / NEVER）</li>
+<li>[ ] 多层安全：System Prompt + Tool-level + Content-filter</li>
+<li>[ ] 特殊模式通过条件注入实现</li>
+</ul>
+<hr />
+<h2 id="15">15. 参考资料</h2>
+<ul>
+<li><a href="https://code.claude.com/docs/en/best-practices">Anthropic 官方最佳实践</a></li>
+<li><a href="https://code.claude.com/docs/en/how-claude-code-works">How Claude Code Works</a></li>
+<li><a href="https://www.cnblogs.com/elainetmz/p/19074118">Claude Code Prompt 深度解析</a></li>
+<li><a href="https://www.cnblogs.com/east4ming/p/19438939">Claude Code 最佳实践</a></li>
+<li><a href="https://blog.csdn.net/u010690311/article/details/159919939">解剖 Claude Code：从 51 万行泄露源码中提炼的 Agent Prompt 设计十大规律</a></li>
+<li><a href="https://claude.com/blog/how-anthropic-teams-use-claude-code">How Anthropic Teams Use Claude Code</a></li>
+</ul>
+<hr />
+<p><em>本文最后更新：2026 年 5 月</em></p>
 
 
 
@@ -7257,10 +8923,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": [], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": [], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

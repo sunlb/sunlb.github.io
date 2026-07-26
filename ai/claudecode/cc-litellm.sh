@@ -1,0 +1,8 @@
+export CLAUDE_CONFIG_DIR="${HOME}/Dev/claude_config"
+export ANTHROPIC_AUTH_TOKEN="sk-litellm"
+export ANTHROPIC_BASE_URL="http://localhost:4000"
+export ANTHROPIC_MODEL="test1"
+export ANTHROPIC_DEFAULT_HAIKU_MODEL="test1"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="test1"
+export ANTHROPIC_DEFAULT_OPUS_MODEL="test1"
+claude "$@"
